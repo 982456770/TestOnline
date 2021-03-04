@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/mstu_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="asfasf"
+        android:background="@null"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="A:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/mstu_choiceA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asfasf"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="B:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/mstu_choiceB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asfasf"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="C:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/mstu_choiceC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asfasf"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="D:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/mstu_choiceD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asfasf"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="答案:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/mstu_answer"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="asfasf"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="选择的是:"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/mstu_selected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asfasf"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
